@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slinky on Stairs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="staircase">
+            <!-- Creating a staircase with divs -->
+            <div class="step"></div>
+            <div class="step"></div>
+            <div class="step"></div>
+            <div class="step"></div>
+            <div class="step"></div>
+            <div class="step"></div>
+            <div class="step"></div>
+        </div>
+        <div class="slinky">
+            <!-- The slinky, represented by a circle -->
+            <div class="coil"></div>
+        </div>
+    </div>
+
+    <!-- Pause button (optional for user control) -->
+    <button onclick="togglePause()">Pause</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
